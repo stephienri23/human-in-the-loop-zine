@@ -1,0 +1,123 @@
+body {
+  background-color: #f9f6ef;
+  color: #222222;
+  font-family: Georgia, serif;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Top navigation bar (consistent on every page) */
+.navbar {
+  background-color: #222222;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 25px;
+  font-family: "Courier New", monospace;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: #f7d774;
+}
+
+h1, h2, h3 {
+  font-family: "Courier New", monospace;
+}
+
+/* Main white paper box */
+.page-box {
+  background-color: #ffffff;
+  border: 2px solid #222222;
+  padding: 25px;
+  margin-bottom: 25px;
+}
+
+/* Simple bordered boxes for quotes, blurbs, and stats */
+.note-box {
+  background-color: #f3efe4;
+  border-left: 5px solid #b83b2a;
+  padding: 12px 15px;
+  margin: 20px 0;
+}
+
+.quote-box {
+  background-color: #fff3b0;
+  border: 2px dashed #222222;
+  padding: 15px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+/* Simple button */
+.open-btn {
+  display: inline-block;
+  background-color: #b83b2a;
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 22px;
+  border: 2px solid #222222;
+  margin-top: 15px;
+}
+
+.open-btn:hover {
+  background-color: #222222;
+}
+
+/* Plain tables for diagrams */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 15px;
+}
+
+th, td {
+  border: 1.5px solid #222222;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background-color: #222222;
+  color: #ffffff;
+  font-family: "Courier New", monospace;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #222222;
+  display: block;
+  margin: 15px auto;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  color: #555555;
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 13px;
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1.5px dashed #222222;
+}
